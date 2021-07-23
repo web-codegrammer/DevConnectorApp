@@ -1,6 +1,6 @@
 ## DevConnector - A Social Network for Developers
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/badge/v-12.0-yellowgreen)](CHANGELOG)
+[![GitHub tag (latest SemVer)](https://img.shields.io/badge/v-12.0.1-yellowgreen)](CHANGELOG)
 
 ## About
 
@@ -40,7 +40,7 @@
 
 ### Version
 
-V12.0
+V12.0.1
 
 #### Project is Licensed Under the MIT License as
 
