@@ -27,9 +27,13 @@
 - Axios
 - Bootstrap
 
-### Link to Web Application (Heroku Deployment)
+### Link to Web Application (Render Deployment)
 
-### 👉👉 [Live Here](https://real-dev-connector-app.herokuapp.com)
+### 👉👉 [Live Here](https://dev-connector-app-osim.onrender.com)
+
+### Alternate Link to Web Application (Render Deployment)
+
+### 👉👉 [Live Here](https://dev-connector-app-frontend.onrender.com)
 
 ## App Info
 
