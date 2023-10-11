@@ -8,7 +8,7 @@
     "rewrites":[
         {
             "src":"/(.*)",
-            "dest":"/routes/api"
+            "dest":"routes/api"
         }
     ]
 }
