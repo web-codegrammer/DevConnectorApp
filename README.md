@@ -10,7 +10,7 @@
 
 - Developed a full stack social networking web application for developers using MERN stack where users can create a developer profile/portfolio, share posts and get help from other developers. This project is built using extensive backend API with Node.js and Express.
 
-- Used Postman for API testing and Redux for app state management. Deployment of the application to Heroku with a post-build script.
+- Used Postman for API testing and Redux for app state management. Deployment of the application to Render.com with a post-build script.
 
 
 ## Technologies used
