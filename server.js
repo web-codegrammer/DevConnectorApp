@@ -1,3 +1,4 @@
+const cron = require("node-cron");
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
@@ -19,7 +20,7 @@ const db = require("./config/keys").mongoURI;
 
 // Connect to MongoDB
 mongoose
-  .connect(db, { useNewUrlParser: true ,useFindAndModify: false, useUnifiedTopology: true })
+  .connect(db, { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true })
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
@@ -33,6 +34,11 @@ require("./config/passport")(passport);
 app.use("/api/users", users);
 app.use("/api/profile", profile);
 app.use("/api/posts", posts);
+
+// Cron-job function
+cron.schedule("*/15 * * * *", function () {
+  console.log("Pinging server in every 15 minutes to prevent app from sleep");
+});
 
 //Server static assets if in production
 if (process.env.NODE_ENV === "production") {

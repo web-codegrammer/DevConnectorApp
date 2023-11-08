@@ -29,6 +29,7 @@
         "jsonwebtoken": "^9.0.2",
         "mocha": "^10.2.0",
         "mongoose": "^5.4.13",
+        "node-cron": "^3.0.3",
         "node-gravatar": "^1.0.2",
         "passport": "^0.6.0",
         "passport-jwt": "^4.0.0",
